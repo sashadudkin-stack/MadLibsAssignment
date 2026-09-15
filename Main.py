@@ -1,5 +1,5 @@
 #############################################
-# Name: Your name
+# Name: Sasha Dudkin
 # Class: ICS3C
 # Date: Friday Sept 18
 # Project Name: MadLibs
@@ -21,3 +21,12 @@
 #############################################
 
 # THIS IS WHERE YOU CODE
+print("Give me a plural noun: ")
+pluralNoun = input()
+print("Now, give me an abjective: ")
+nonobjective = input()
+print("Why? (do not say 'because' please)")
+reason = input()
+print("My friend said that" ,pluralNoun, "is" ,nonobjective, "because" ,reason,"!")
+print("That was fun!")
+print("See you later!")
